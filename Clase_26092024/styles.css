@@ -1,23 +1,39 @@
+/*Se utiliza para que se aplique a toda la pagina*/
 *{
+    /*Es la proporción que se le va a aplicar a la pagina*/
     box-sizing: border-box;
 }
 
+/*Llama a la etiqueta body y dentro de ella se le dan las propiedades*/
 body{
+    /*Es como se ven los objetos dentro del apartado*/
     display: flex;
+    /*Es la justificacion del contenido*/
     justify-content: center;
+    /*Es la alineacion del contenido*/
     align-items: center;
+    /*Es la altura del apartado*/
     height: 100vh;
+    /*Margen*/
     margin: 0;
+    /*Color de fondo del apartado*/
     background-color: #000000;
+    /*Tipo de letra*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Se crea una etiqueta .calculator donde se le dan propiedades*/
 .calculator{
+    /*Ancho del apartado*/
     width: 100%;
+    /*Maximo del ancho que se puede llegar a ocupar*/
     max-width: 400px;
     background-color: #cfb5e2;
+    /*Es el espacio que se le da al elemento*/
     padding: 20px;
+    /*Se utiliza para darle bordes circulares al elemento*/
     border-radius: 10px;
+    /*Se utiliza para dar tamaño y color al elemento*/
     box-shadow: 0px 4px 8px #f2dfff;
 }
 
@@ -25,11 +41,13 @@ body{
     width: 100%;
     height: 50px;
     background-color: azure;
+    /*La alineacion del texto*/
     text-align: right;
     padding: 10px;
     font-size: 1.5rem;
     border: none;
     border-radius: 5px;
+    /*Es el margen de la parte inferior*/
     margin-bottom: 20px;
 }
 

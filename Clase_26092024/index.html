@@ -1,16 +1,25 @@
+<!--Indica que el documento utiliza html5-->
 <!DOCTYPE html>
+<!--Define el lenguaje de nuestra pagina-->
 <html lang="en">
+<!--Nos permite colocar metadatos-->
 <head>
+    <!--Se utiliza para que se vea correctamente en varios navegadores-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Le da nombre a la página--> 
     <title>Document</title>
+    <!--Llama a un archivo para darle estilo a la pagina-->
     <link rel="stylesheet" href="styles.css">
 </head>
+<!--Nos permite colocar datos-->
 <body>
-    
+    <!--Es una etiqueta que agrupa los elementos-->
     <div class="Calculator">
+        <!--Es una entrada donde el usuario ingresa datos-->
         <input type="text" id="display" class="Calculator-screen" value="" disabled>
         <div class="Calculator buttons" >
+            <!--Sirve para especificar la creacion de un boton-->
             <button class="button" onclick="clearDisplay()">C</button>
             <button class="button" onclick="deleteLast()">DEL</button>
             <button class="button" onclick="appendToDisplay('/')">/</button>
@@ -35,6 +44,7 @@
             <button class="button" onclick="appendToDisplay('.')">.</button>
         </div>
     </div>
+    <!--Hace un llamado a un archivo JavaScrip-->
     <script src="script.js"></script>
 </body>
 </html>
